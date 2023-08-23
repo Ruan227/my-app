@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
+import MeuComponete from './componentes/MeuComponete';
+import MinMax from './componentes/MinMax';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>bola</Text>
-      
+      <MinMax min="10" max="20" />
       <Image
         style={styles.stretch}
         source={require('./assets/icon.png')}
