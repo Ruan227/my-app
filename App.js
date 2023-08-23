@@ -7,7 +7,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>bola</Text>
-      <MinMax min="10" max="20" />
+      <MinMax min="30" max="20" />
     </View>
   );
 }
