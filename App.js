@@ -8,10 +8,6 @@ export default function App() {
     <View style={styles.container}>
       <Text>bola</Text>
       <MinMax min="10" max="20" />
-      <Image
-        style={styles.stretch}
-        source={require('./assets/icon.png')}
-      />
     </View>
   );
 }
@@ -30,9 +26,3 @@ const styles = StyleSheet.create({
     marginTop: 40,
   },
 });
-
-
-
-
-
-

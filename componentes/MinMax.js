@@ -2,10 +2,7 @@ import React from 'react'
 import { Text } from 'react-native';
 
 
-export default function MinMax(props) {
-
-    const { min, max } = props;
-    console.warn(props);
+export default function MinMax({min, max}) {
 
 return (
 
