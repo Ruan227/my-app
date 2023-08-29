@@ -2,12 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
 import MeuComponete from './componentes/Semana01/MeuComponete';
 import MinMax from './componentes/Semana01/MinMax';
+import NumeroAleatorio from './componentes/Semana02/NumerosAleatoriso';
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>bola</Text>
       <MinMax min="30" max="20" />
+      <NumeroAleatorio min={8} max={10} />
     </View>
   );
 }

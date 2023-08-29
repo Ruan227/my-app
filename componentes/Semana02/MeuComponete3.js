@@ -1,8 +1,13 @@
 import React from 'react'
+import { View, Text } from 'react-native'
 
 const MeuComponete3 = () => {
   return (
-    <div>MeuComponete3</div>
+    <View>
+        <Text>
+            ruan
+        </Text>
+    </View>
   )
 }
 
