@@ -9,10 +9,6 @@ import Nome from './componentes/Semana03/Nome';
 export default function App() {
   return (
     <View style={styles.container}>
-      {/* <Text>bola</Text>
-      <MinMax min="30" max="20" />
-      <NumeroAleatorio min={8} max={10} />
-      <Contador/> */}
       <Nome/>
     </View>
   );
