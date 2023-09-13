@@ -1,9 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image } from 'react-native';
-import MeuComponete from './componentes/Semana01/MeuComponete';
-import MinMax from './componentes/Semana01/MinMax';
-import NumeroAleatorio from './componentes/Semana02/NumerosAleatoriso';
-import Contador from './componentes/Semana03/Contador';
 import Nome from './componentes/Semana03/Nome';
 
 export default function App() {
